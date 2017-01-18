@@ -1,0 +1,4 @@
+pdf:
+    enabled:    true
+    binary:     "%kernel.root_dir%/../vendor/bin/wkhtmltopdf-amd64"
+    options:    []

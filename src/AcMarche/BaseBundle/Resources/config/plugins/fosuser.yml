@@ -1,0 +1,8 @@
+db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+firewall_name: secured_area
+user_class: AcSecurityBundle\Entity\User
+group:
+    group_class: AcSecurityBundle\Entity\Group
+registration:
+    form:
+        type: Enfance\ParentBundle\Form\RegistrationType

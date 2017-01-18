@@ -43,6 +43,8 @@
 */Entity/*~
 
 # editor phpstorm
-.idea/
+/.idea/
 #composer
-composer.lock
+/composer.lock
+#script perso
+/clean.sh
