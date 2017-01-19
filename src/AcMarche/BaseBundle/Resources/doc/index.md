@@ -1,9 +1,5 @@
-Gestion patrimoniale des cimetières
+Installation de la structure de base
 =========
-
-Installation
-
-### [Installation](https://github.com/acmarche/baseappli/src/AcMarche/BaseBundle/Resources/doc/Resources/doc/index.rst)
 
 ### Téléchargement de la structure de base
 
