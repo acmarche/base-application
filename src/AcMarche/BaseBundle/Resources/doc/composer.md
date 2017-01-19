@@ -30,4 +30,14 @@ a permis de renommer le fichier qui à l'origine s'appele composer.phar en compo
 
 **Et l'option --install-dir=bin**
 
-a permis que cette commande vous soit disponible de n'importe où dans votre shell
+a placé l'exécutable dans le dossier bin/composer
+
+### Astuce
+
+Composer peut vous servir dans d'autres projets php, 
+pour que cette commande soit disponible de n'importe où dans votre shell,
+déplacer celui-ci dans votre dossier des éxécutables 
+
+Par exemple sous linux dans : /usr/bin/
+ 
+
