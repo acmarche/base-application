@@ -51,7 +51,7 @@ composer require friendsofsymfony/user-bundle "~2.0@dev"
 composer require acmarche/acsecurity:dev-master
 ```
 
-Activer ces deux modules :
+Activer ces deux modules en ajoutant ces deux lignes dans le fichier appKernel.php:
 
 ``` php
 <?php
