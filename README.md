@@ -1,6 +1,8 @@
 baseappli
 =========
 
-Module de base nécessaire aux applis de Marche
+Structure de base nécessaire aux applications de la Ville de Marche
 
-Il contient le template nécessaire (html, css, js...)
+### [Installation](https://github.com/acmarche/Resources/doc/index.rst)
+
+### [Installation](https://github.com/acmarche/baseappli)
