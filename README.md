@@ -1,7 +1,11 @@
-baseappli
+Base des applications
 =========
 
 Structure de base nécessaire aux applications de la Ville de Marche
 
-### [Installation](https://github.com/acmarche/baseappli/src/AcMarche/BaseBundle/Resources/doc/Resources/doc/index.rst)
+
+Documentation
+-------------
+
+### [Installation](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/index.md)
 

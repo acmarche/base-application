@@ -1,7 +1,6 @@
 Configuration de la base de données
 =========
 
-
 Si vous voulez changer les paramètres vous pouvez le faire en éditant le fichier
 
 ```yaml
