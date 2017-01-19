@@ -1,10 +1,13 @@
-Composer un outil de gestionnaire de packages php, un peu comme un google play, app store, apt...
+Installation de composer
+=========
+
+Composer est un gestionnaire de dépendances en PHP
 
 Une fois cet outil sur votre serveur vous pourrez télécharger et installer un grand nombre d'applications.
 
-Vous allez voir c'est très simple cette étape prend 2 minutes
+C'est un simple exécutable, l'installation prend 2 minutes
 
-### On télécharge le binaire
+### Téléchargement et installation
 
 ```shell
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"

@@ -1,7 +1,8 @@
 Base des applications
 =========
 
-Structure de base nécessaire aux applications de la Ville de Marche
+Structure de base nécessaire aux applications de la Ville de Marche.
+La liste des applications peut être retrouvée sur notre site [https://applications.marche.be](https://applications.marche.be)
 
 
 Documentation

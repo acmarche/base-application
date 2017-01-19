@@ -23,7 +23,7 @@ Vous pouvez renommer le dossier en ce que vous voulez, pour l'exemple renommons 
 
 ### Installation des dépendances
 
-L'appli utilise différents modules, on va les installer grâce à l'outile "composer"
+L'appli utilise différents modules, on va les installer grâce à l'outil "composer"
 
 Composer est un gestionnaire de packages [https://getcomposer.org/](https://getcomposer.org/)
 
