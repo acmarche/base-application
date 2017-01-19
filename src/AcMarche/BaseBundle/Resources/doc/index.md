@@ -66,6 +66,18 @@ public function registerBundles()
     );
 }
 ```
+Et ajouter la config dans config.yml
+
+```yml
+security:
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username
+
+    encoders:
+        Symfony\Component\Security\Core\User\User: bcrypt
+        AcMarche\AcSecurityBundle\Entity\User: bcrypt # ou sha512
+```
 
 ### Initialisation de la base de données
 
