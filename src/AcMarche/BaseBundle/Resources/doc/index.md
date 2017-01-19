@@ -62,24 +62,25 @@ public function registerBundles()
     $bundles = array(
         // ...
         new FOS\UserBundle\FOSUserBundle(),
-        new AcSecurityBundle\AcSecurityBundle(),        
+        new AcMarche\AcSecurityBundle\AcSecurityBundle()        
     );
 }
+```
+
+### Initialisation de la base de données
+
+**Avant créer les tables n'oubliez pas de créer votre base de données en UTF8**
+
+La commande suivante va créer les tables nécessaires.
+
+```shell
+php bin/console doctrine:schema:update --force
 ```
 
 
 ### Configuration de l'hôte sur votre serveur web
 
 [Voici un exemple pour apache et ngingx](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/apache.md)
-
-### Initialisation de la base de données
-
-La commande suivante va créer votre base de données s'il elle n'existe pas
-et créer les tables nécessaires.
-
-```shell
-php bin/console doctrine:schema:update --force
-```
 
 ### Test de votre installation
 
