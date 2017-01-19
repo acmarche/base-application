@@ -29,18 +29,18 @@ Composer est un gestionnaire de packages [https://getcomposer.org/](https://getc
 
 Si vous n'avez pas composer sur votre serveur, pas de panique, il s'agit d'un simple exécutable à télécharger et à copier sur votre serveur.
 
-[Voici comment installer composer](https://github.com/acmarche/baseappli/src/AcMarche/BaseBundle/Resources/doc/Resources/doc/composer.md)
+[Voici comment installer composer](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/composer.md)
 
-Maintenant que vous disposez de "composer", il vous suffit de vous placer dans le répertoire de votre installation et d'exécuter la commande
+Maintenant que vous disposez de "composer", il vous suffit de vous placer dans le répertoire de votre installation et d'exécuter la commande :
 
 ```shell
 cd moninstall
 composer update
 ```
 
-A la fin du téléchargement des modules, vous pourrez donner les informations nécessaires pour à la connection de votre serveur de base de données
+A la fin du téléchargement des modules, vous pourrez donner les informations nécessaires à la connection de votre serveur de base de données.
 
-Si vous désirez rechanger les paramètres de la base de données, [voici la méthode](https://github.com/acmarche/baseappli/src/AcMarche/BaseBundle/Resources/doc/Resources/doc/database.md)
+Si vous désirez changer plus tard les paramètres de la base de données, [voici la méthode](https://github.com/acmarche/baseappli/src/AcMarche/BaseBundle/Resources/doc/Resources/doc/database.md)
 
 ### Module d'authentification et de sécurité
 
@@ -49,5 +49,12 @@ Ce module sert à gérer les droits des applications
 ```shell
 composer require friendsofsymfony/user-bundle "~2.0@dev"
 composer require acmarche/acsecurity:dev-master
-```shell
+```
 
+### Configuration de l'hôte sur votre serveur web
+
+[Voici un exemple pour apache et ngingx](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/apache.md)
+
+### Initialisation de la base de données
+
+appli.domain.be
