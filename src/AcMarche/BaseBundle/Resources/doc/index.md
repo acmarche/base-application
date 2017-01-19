@@ -44,12 +44,29 @@ Si vous désirez changer plus tard les paramètres de la base de données, [voic
 
 ### Module d'authentification et de sécurité
 
-Ce module sert à gérer les droits des applications
+Ce module sert à gérer les droits des utilisateurs
 
 ```shell
 composer require friendsofsymfony/user-bundle "~2.0@dev"
 composer require acmarche/acsecurity:dev-master
 ```
+
+Activer ces deux modules :
+
+``` php
+<?php
+// app/AppKernel.php
+
+public function registerBundles()
+{
+    $bundles = array(
+        // ...
+        new FOS\UserBundle\FOSUserBundle(),
+        new AcSecurityBundle\AcSecurityBundle(),        
+    );
+}
+```
+
 
 ### Configuration de l'hôte sur votre serveur web
 
@@ -57,4 +74,17 @@ composer require acmarche/acsecurity:dev-master
 
 ### Initialisation de la base de données
 
+La commande suivante va créer votre base de données s'il elle n'existe pas
+et créer les tables nécessaires.
+
+```shell
+php bin/console doctrine:schema:update --force
+```
+
+### Test de votre installation
+
 appli.domain.be
+
+### En cas de soucis
+
+[Voici comment faire si l'installation ne fonctionne pas](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/apache.md)
