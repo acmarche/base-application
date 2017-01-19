@@ -3,24 +3,23 @@ Installation de la structure de base
 
 ### Téléchargement de la structure de base
 
-* Avec Git
+* Soit avec Git
 
-Placez vous à la racine de votre serveur web.
-Si vous avez git, exécuter la commande :
+Placez vous à la racine de votre serveur web, exécuter la commande :
 
 ```shell
 git clone https://github.com/acmarche/baseappli.git
 ```
 
-cela va vous créer un répertoire nommer baseappli
+cela va vous créer un répertoire nommer baseappli.
 
-* En télécharger directement le zip
+* Soit en téléchargeant directement le zip
 
 https://github.com/acmarche/baseappli/archive/master.zip
 
-Et décompressez le sur votre serveur
+Et décompressez le sur votre serveur.
 
-Vous pouvez renommer le dossier en ce que vous voulez, pour l'exemple renommons le en "sepulture"
+Vous pouvez renommer le dossier en ce que vous voulez, pour l'exemple renommons le en "moninstall"
 
 ### Installation des dépendances
 
@@ -35,7 +34,7 @@ Si vous n'avez pas composer sur votre serveur, pas de panique, il s'agit d'un si
 Maintenant que vous disposez de "composer", il vous suffit de vous placer dans le répertoire de votre installation et d'exécuter la commande
 
 ```shell
-cd sepulture
+cd moninstall
 composer update
 ```
 
