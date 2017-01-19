@@ -25,12 +25,11 @@ class AcMarcheBaseExtension extends Extension implements PrependExtensionInterfa
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('services.yml');
-
     }
 
-     /**
+    /**
      * Allow an extension to prepend the extension configurations.
      *
      * @param ContainerBuilder $container
