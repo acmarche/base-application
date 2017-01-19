@@ -40,7 +40,7 @@ composer update
 
 A la fin du téléchargement des modules, vous pourrez donner les informations nécessaires à la connection de votre serveur de base de données.
 
-Si vous désirez changer plus tard les paramètres de la base de données, [voici la méthode](https://github.com/acmarche/baseappli/src/AcMarche/BaseBundle/Resources/doc/Resources/doc/database.md)
+Si vous désirez changer plus tard les paramètres de la base de données, [voici la méthode](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/database.md)
 
 ### Module d'authentification et de sécurité
 

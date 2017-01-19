@@ -17,20 +17,10 @@ php composer-setup.php --install-dir=bin --filename=composer
 Voila c'est fait, maintenant vous pouvez exécuter la commande
 
 ```shell
-composer
+bin/composer
 ```
 
 Toutes les fonctions de gestion s'offre à vous (recherche, installation, mise à jour...)
-
-### Remarques
-
-**L'option --filename=composer**
-
-a permis de renommer le fichier qui à l'origine s'appele composer.phar en composer
-
-**Et l'option --install-dir=bin**
-
-a placé l'exécutable dans le dossier bin/composer
 
 ### Astuce
 
@@ -40,4 +30,13 @@ déplacer celui-ci dans votre dossier des éxécutables
 
 Par exemple sous linux dans : /usr/bin/
  
+### Remarques
+
+**L'option --filename=composer**
+
+a permis de renommer le fichier qui à l'origine s'appele composer.phar en composer
+
+**Et l'option --install-dir=bin**
+
+a placé l'exécutable dans le dossier bin/composer
 
