@@ -77,6 +77,11 @@ La commande suivante va créer les tables nécessaires.
 php bin/console doctrine:schema:update --force
 ```
 
+La commande suivante va créer le groupe admin et le compte admin.
+
+```shell
+php bin/console acsecurity:initdata
+```
 
 ### Configuration de l'hôte sur votre serveur web
 
@@ -84,7 +89,9 @@ php bin/console doctrine:schema:update --force
 
 ### Test de votre installation
 
-appli.domain.be
+Accéder à votre application http://appli.domain.be
+
+Vous pouvez commencer à créer des comptes utilisateurs
 
 ### En cas de soucis
 
