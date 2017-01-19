@@ -2,10 +2,6 @@
 # http://symfony.com/doc/current/security.html
 security:
 
-    encoders:
-        Symfony\Component\Security\Core\User\User: bcrypt
-        AcMarche\AcSecurityBundle\Entity\User: sha512
-
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
         dev:
@@ -14,4 +10,10 @@ security:
 
         main:
             anonymous: ~
-            
+            # activate different ways to authenticate
+
+            # http_basic: ~
+            # http://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
+
+            # form_login: ~
+            # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
