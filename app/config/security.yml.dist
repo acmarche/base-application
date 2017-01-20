@@ -7,7 +7,7 @@ security:
 
     encoders:
         Symfony\Component\Security\Core\User\User: bcrypt
-        AcSecurityBundle\Entity\User: bcrypt # ou sha512
+        AcMarche\AcSecurityBundle\Entity\User: bcrypt # ou sha512
 
     firewalls:
         dev:
