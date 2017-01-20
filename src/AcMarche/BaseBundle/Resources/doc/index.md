@@ -66,9 +66,10 @@ public function registerBundles()
     );
 }
 ```
-Et ajouter la config dans config.yml
+Et ajouter la config dans security.yml
 
 ```yml
+#app/config/security.yml
 security:
     providers:
         fos_userbundle:
@@ -98,6 +99,10 @@ php bin/console acsecurity:initdata
 ### Configuration de l'hôte sur votre serveur web
 
 [Voici un exemple pour apache et ngingx](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/apache.md)
+
+### Droit des fichiers pour votre serveur web
+
+[Voici un exemple pour apache et ngingx](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/droit.md)
 
 ### Test de votre installation
 
