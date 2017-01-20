@@ -2,7 +2,3 @@ ac_marche_base:
     resource: "@AcMarcheBaseBundle/Controller/"
     type:     annotation
     prefix:   /
-
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
