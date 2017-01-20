@@ -7,18 +7,17 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
     {% endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}Cimetière - sepultures{% endblock %}  {% if ville %} - {{ ville }} {% endif %}</title>
+    <title>{% block title %}Application{% endblock %}</title>
     {% block stylesheets %}{% endblock %}
     <!-- Bootstrap -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/sepulture.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/bootstrap-theme.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/typeahead.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/datepicker.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/print.css') }}" rel="stylesheet" media="print">
+    <link href="{{ asset('bundles/acmarchebase/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/acmarchebase/css/bootstrap-theme.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/acmarchebase/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/acmarchebase/css/typeahead.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/acmarchebase/css/datepicker.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/acmarchebase/css/print.css') }}" rel="stylesheet" media="print">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
+    <script src="{{ asset('bundles/acmarchebase/js/jquery-1.11.1.min.js') }}"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -78,7 +77,7 @@
     <div class="container">
         {% block footer %}
             <p class="text-muted center-block">
-                Copyright © 2014-2017 - Marche-en-Famenne. Tous droits réservés. - http://sepulture.marche.be
+                Copyright © 2014-2017 - Marche-en-Famenne. Tous droits réservés.
             </p>
         {% endblock %}
     </div>
@@ -87,8 +86,8 @@
 {% block javascripts %}{% endblock %}
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/typeahead/typeahead.bundle.js') }} " type="text/javascript"></script>
+<script src="{{ asset('bundles/acmarchebase/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('bundles/acmarchebase/js/typeahead/typeahead.bundle.js') }} " type="text/javascript"></script>
 
 {% block scripts %}
 
