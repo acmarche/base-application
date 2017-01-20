@@ -74,8 +74,8 @@ Copier les fichiers modèles, vous pouvez écraser la syble.
 ``` shell
 cd app/config/
 cp config.yml.dist config.yml
-cp security.yml.dist config.yml
-cp routing.yml.dist config.yml
+cp security.yml.dist security.yml
+cp routing.yml.dist routing.yml
 ```  
 
 ### Initialisation de la base de données
