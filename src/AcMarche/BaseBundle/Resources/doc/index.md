@@ -66,7 +66,7 @@ public function registerBundles()
     );
 }
 ```
-Et ajouter la config dans security.yml
+On ajoute les paramètres nécessaires dans security.yml
 
 ```yml
 #app/config/security.yml
@@ -80,6 +80,17 @@ security:
         AcMarche\AcSecurityBundle\Entity\User: bcrypt # ou sha512
 ```
 
+On ajoute aussi le routage du module dans routing.yml
+
+```yml
+#app/config/routing.yml
+
+acsecurity:
+    resource: "@AcSecurityBundle/Controller/"
+    type:     annotation
+    prefix:   /administration
+```
+    
 ### Initialisation de la base de données
 
 **Avant créer les tables n'oubliez pas de créer votre base de données en UTF8**
