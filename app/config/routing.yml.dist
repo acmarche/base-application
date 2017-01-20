@@ -2,3 +2,8 @@ ac_marche_base:
     resource: "@AcMarcheBaseBundle/Controller/"
     type:     annotation
     prefix:   /
+
+acsecurity:
+    resource: "@AcSecurityBundle/Controller/"
+    type:     annotation
+    prefix:   /administration
