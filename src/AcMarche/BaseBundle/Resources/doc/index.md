@@ -113,14 +113,18 @@ php bin/console acsecurity:initdata
 
 ### Droit des fichiers pour votre serveur web
 
-[Voici un exemple pour apache et ngingx](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/droit.md)
+[Permissions des droits sur les dossiers](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/droit.md)
 
 ### Test de votre installation
 
-Accéder à votre application http://appli.domain.be
+C'est finis vous pouvez tester votre installation.
 
-Vous pouvez commencer à créer des comptes utilisateurs
+Accéder à votre application http://monappli.domain.be
+
+Vous pouvez commencer à gérer des comptes utilisateurs.
 
 ### En cas de soucis
 
-[Voici comment faire si l'installation ne fonctionne pas](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/apache.md)
+L'installation ne fonctionne pas ?
+
+[Voici comment analyser si l'installation ne fonctionne pas](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/apache.md)
