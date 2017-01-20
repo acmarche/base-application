@@ -66,38 +66,25 @@ public function registerBundles()
     );
 }
 ```
-On ajoute les paramètres nécessaires dans security.yml
-
-```yml
-#app/config/security.yml
-security:
-    providers:
-        fos_userbundle:
-            id: fos_user.user_provider.username
-
-    encoders:
-        Symfony\Component\Security\Core\User\User: bcrypt
-        AcMarche\AcSecurityBundle\Entity\User: bcrypt # ou sha512
-```
-
-On ajoute aussi le routage du module dans routing.yml
-
-```yml
-#app/config/routing.yml
-
-acsecurity:
-    resource: "@AcSecurityBundle/Controller/"
-    type:     annotation
-    prefix:   /administration
-```
     
+### Paramétrages de base
+
+Copier les fichiers modèles, vous pouvez écraser la syble. 
+
+``` shell
+cd app/config/
+cp config.yml.dist config.yml
+cp security.yml.dist config.yml
+cp routing.yml.dist config.yml
+```  
+
 ### Initialisation de la base de données
 
 **Avant créer les tables n'oubliez pas de créer votre base de données en UTF8**
 
 La commande suivante va créer les tables nécessaires.
 
-```shell
+``` shell
 php bin/console doctrine:schema:update --force
 ```
 
