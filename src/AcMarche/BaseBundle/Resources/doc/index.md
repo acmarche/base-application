@@ -69,7 +69,7 @@ public function registerBundles()
     
 ### Paramétrages de base
 
-Copier les fichiers modèles, vous pouvez écraser la syble. 
+Copier les fichiers modèles, vous pouvez écraser la cible. 
 
 ``` shell
 cd app/config/
