@@ -15,4 +15,4 @@ sudo setfacl -R -m u:"www-data":rwX -m u:`whoami`:rwX var
 sudo setfacl -dR -m u:"www-data":rwX -m u:`whoami`:rwX var
 ```
 
-Si vous n'y arrivez pas, [voici d'autres méthodes et également pour MAC](http://symfony.com/doc/current/setup/file_permissions.html)
+[Pour plus d'informations et la méthode pour MAC](http://symfony.com/doc/current/setup/file_permissions.html)
