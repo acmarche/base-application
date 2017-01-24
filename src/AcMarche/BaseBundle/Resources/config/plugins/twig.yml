@@ -1,2 +1,0 @@
-form_themes:
-        - 'AcMarcheBaseBundle:Form:fields.html.twig'

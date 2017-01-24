@@ -12,7 +12,13 @@
 
 # Parameters
 /app/config/parameters.yml
-/app/config/parameters.ini
+/app/config/config.yml
+/app/config/routing.yml
+/app/config/security.yml
+/app/config/services.yml
+
+#Kernel
+/app/AppKernel.php
 
 # Managed by Composer
 /app/bootstrap.php.cache
@@ -36,15 +42,14 @@
 # Build data
 /build/
 
-# Composer PHAR
+# Composer
 /composer.phar
+/composer.lock
 
 # Backup entities generated with doctrine:generate:entities command
 */Entity/*~
 
 # editor phpstorm
 /.idea/
-#composer
-/composer.lock
 #script perso
 /clean.sh
