@@ -8,5 +8,5 @@ La liste des applications peut être retrouvée sur notre site [https://applicat
 Documentation
 -------------
 
-### [Installation](https://github.com/acmarche/baseappli/blob/master/src/AcMarche/BaseBundle/Resources/doc/index.md)
+### [Installation](https://github.com/acmarche/basebundle/blob/master/src/AcMarche/BaseBundle/Resources/doc/index.md)
 
