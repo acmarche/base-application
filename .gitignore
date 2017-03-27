@@ -53,3 +53,5 @@
 /.idea/
 #script perso
 /clean.sh
+
+/src
