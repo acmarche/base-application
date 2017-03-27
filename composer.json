@@ -44,7 +44,7 @@
     "knplabs/knp-snappy-bundle": "^1.4",
     "h4cc/wkhtmltopdf-amd64": "^0.12.3",
     "stfalcon/tinymce-bundle": "^2.1",
-    "acmarche/basebundle":"dev-master"
+    "acmarche/base-bundle":"dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "^3.0",
