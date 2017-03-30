@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new Stfalcon\Bundle\TinymceBundle\StfalconTinymceBundle(),
+            new AcMarche\BaseBundle\AcMarcheBaseBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
