@@ -1,7 +1,7 @@
 {
-  "name": "acmarche/baseappli",
+  "name": "acmarche/base-application",
   "description": "Structure de base nécessaire aux applications de la Ville de Marche-en-Famenne",
-  "homepage": "https://github.com/acmarche/baseappli",
+  "homepage": "https://github.com/acmarche/base-application",
   "license": "MIT",
   "authors": [
     {
@@ -11,7 +11,7 @@
       "role": "Developer"
     }
   ],
-  "type": "symfony-bundle",
+  "type": "symfony-project",
   "autoload": {
     "psr-4": {
       "": "src/"
