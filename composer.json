@@ -1,7 +1,7 @@
 {
   "name": "acmarche/baseappli",
-  "description": "Module de base nécessaire aux applis de Marche",
-  "homepage": "https://github.com/acmarche/basebundle",
+  "description": "Structure de base nécessaire aux applications de la Ville de Marche-en-Famenne",
+  "homepage": "https://github.com/acmarche/baseappli",
   "license": "MIT",
   "authors": [
     {
