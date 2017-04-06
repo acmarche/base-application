@@ -1,8 +1,10 @@
+#lien de base, ces lignes peuvent être supprimées lorsqu'une application est installée
 ac_marche_base:
     resource: "@AcMarcheBaseBundle/Controller/"
     type:     annotation
     prefix:   /
 
+#lien vers la gestion des utilisateurs
 ac_marche_security:
     resource: "@AcMarcheSecurityBundle/Controller/"
     type:     annotation
